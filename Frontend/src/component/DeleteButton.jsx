@@ -1,7 +1,7 @@
 import React from "react";
 
-const DeleteButton = () => {
-  return <button className='bg-red-500 text-white'>Delete</button>;
+const DeleteButton = ({ onClick }) => {
+  return <button className='bg-red-500 text-white' onClick={onClick}>Delete</button>;
 };
 
 export default DeleteButton;

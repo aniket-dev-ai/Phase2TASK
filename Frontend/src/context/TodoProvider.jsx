@@ -16,6 +16,7 @@ export const TodoProvider = ({ children }) => {
   const toggleTodo = (id) => {
     dispatch({ type: "TOGGLE_TODO", payload: id });
   };
+
   return (
     <TodoContext.Provider
       value={{

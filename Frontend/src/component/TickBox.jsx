@@ -1,9 +1,9 @@
 import React from 'react'
 
-function TickBox() {
+function TickBox({ checked, onChange }) {
   return (
     <div>
-        <input type="checkbox" name="" id="" />
+        <input type="checkbox" checked={checked} onChange={onChange} />
     </div>
   )
 }
